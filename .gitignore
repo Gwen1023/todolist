@@ -1,0 +1,24 @@
+# 编译产生的垃圾文件
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+
+# 编译目录下的所有内容，除了 .gitkeep
+build/*
+!build/.gitkeep
+
+# 数据文件（本地测试数据不上传）
+*.dat
+*.csv
+data/*
+!data/.gitkeep
+
+# 编辑器配置文件 (VS Code, Visual Studio, Mac DS_Store)
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.user
+.DS_Store
