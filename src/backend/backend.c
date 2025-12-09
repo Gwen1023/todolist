@@ -10,8 +10,8 @@ TaskList* initTaskList(){
     if(!list) return NULL;//检查内存是否分配成功，失败就返回NULL
     list->head = list->tail = NULL;//初始化链表头尾指针为NULL，表示空链表
     list->count = 0;//设置任务的计数器为0
-    return list//返回创建的链表指针
-};
+    return list;//返回创建的链表指针
+}
 
 // 添加任务到链表
 int addTask(TaskList *list, Task *task){
@@ -139,3 +139,5 @@ int markTaskStatus(TaskList *list, int id, TaskStatus status){
     task->status = status;//更新任务状态
     return 0;
 };
+
+#endif
