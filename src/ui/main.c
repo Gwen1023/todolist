@@ -25,7 +25,7 @@ void showWelcomeScreen(){
 
 
 // 显示任务统计信息
-void showTaskStatistics(TaskList *list) {
+void showTaskStatistics(list) {
     system("cls");
     
     // 显示标题
@@ -198,4 +198,5 @@ int main(){
     showMainMenu();
     runMainLoop(TaskList *list);
     return 0;
+
 }
