@@ -18,8 +18,7 @@ TodoList/
 │   │   ├── main.c        # 主函数入口
 │   │   └── menu.c        # 菜单显示和交互
 │   ├── backend/
-│   │   ├── task.c        # 任务操作
-│   │   ├── list.c        # 链表操作
+│   │   ├── backend.c     # 基本功能
 │   │   └── advanced.c    # 高级功能
 │   ├── storage/
 │   │   └── storage.c     # 文件读写
