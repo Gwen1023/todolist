@@ -380,7 +380,7 @@ void stressTest() {
         
         // 每次循环删除一些任务
         for (int j = 1; j <= operationsPerCycle / 2; j++) {
-            deleteTaskById(cycleList, i * 100 + j);
+            deleteTask(cycleList, i * 100 + j);
         }
     }
     end = clock();
